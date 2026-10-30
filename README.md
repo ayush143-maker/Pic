@@ -21,6 +21,10 @@ Open the images in an image viewer or browse them through GitHub. The repository
 
 Screenshots are stored at the repository root. Keep their timestamped filenames when possible, and update the inventory above if a file is renamed, added, or removed. Add descriptions beside entries when more context is useful. There are no supplied page, theme, or project configuration files to customize.
 
+## Image and data handling
+
+The JPGs are tracked repository contents and may be visible to anyone with access to the repository. Before adding or retaining a screenshot, inspect it for personal details, account information, notifications, location clues, or other content that should not be shared. Confirm you have permission to archive and distribute the image; redact sensitive details or omit the image when appropriate. Do not assume a timestamped filename makes image contents anonymous. No `.env.example`, application configuration, or secret-handling mechanism is listed for this image-only repository.
+
 ## Review checklist
 
 This is a future review checklist, not a record of completed checks or verified browser compatibility:
