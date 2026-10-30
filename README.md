@@ -56,3 +56,8 @@ These are future considerations, not verified results. Keyboard operation, focus
 - If screenshots are embedded in a page or given captions, provide descriptions or text alternatives for information conveyed by each image; a timestamped filename is not an image description.
 - If explanatory text is added to this README, check its readability in the rendered page and consider whether descriptions convey context to readers who cannot inspect the images visually.
 - If this repository later gains an interactive presentation, review its keyboard access, focus visibility, and motion behavior.
+
+## Final release review
+
+- Confirm the documented starting point still matches the files present at the repository root.
+- Review the published result once on a narrow screen and once on a wider screen; treat this as a release check, not an automated test report.
