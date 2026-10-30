@@ -15,7 +15,17 @@ The repository root contains these screenshot files, named with their capture ti
 - `Screenshot_2026-09-10-13-27-42-51_020b7084ee31436da249e845f8d7be91.jpg`
 - `Screenshot_2026-09-10-13-27-52-71_020b7084ee31436da249e845f8d7be91.jpg`
 
-Open an image in an image viewer or browse the files through GitHub. The repository has no application entry point, package manifest, or build configuration, so no run or deployment command is documented.
+Open an image in an image viewer or browse the files through GitHub. The repository has no application entry point, package manifest, or build configuration, so no run, build, or deployment command is documented.
+
+## Deployment-readiness checklist
+
+This repository is an image archive, not a configured application. No publication target or deployment process is documented. If you make the README and images available through a publishing process, use these checks as recommendations; they are not evidence that anything has been published:
+
+- [ ] **Confirm the source and root directory.** The listed JPGs are at the repository root. Ensure the selected publication source includes the README and the intended image files. No build output directory or build command is identified, so do not assume one is required or produced.
+- [ ] **Check image paths.** Keep image references relative to the repository root when linking the JPGs. Verify every path uses the exact filename, including capitalization and punctuation, and that the referenced file is included in the published content.
+- [ ] **Review the files before sharing.** Inspect screenshots for personal details, account information, notifications, location clues, or other content that should not be shared. Confirm you have permission to archive and distribute each image; redact sensitive details or omit the image when appropriate. A timestamped filename does not make image contents anonymous.
+- [ ] **Avoid adding secrets to tracked files.** No project configuration or environment-variable template is listed. Do not add passwords, tokens, or other real secrets to the README or other tracked content.
+- [ ] **Preview after publication.** Open the published README or archive view and follow each image reference. Confirm the intended JPGs load and display legibly, and correct any missing or incorrect paths. This is a recommended final check, not a claim that a published preview has been completed.
 
 ## Maintaining the archive
 
