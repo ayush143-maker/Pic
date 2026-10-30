@@ -28,3 +28,12 @@ These are actions to perform, not verified results:
 - Open each listed JPG in an image viewer or through the repository browser. Check that it opens and that the screenshot content is legible at a useful zoom.
 - Compare the files you review with the README inventory. If an image is added, renamed, or removed, update the corresponding entry.
 - This repository contains screenshots rather than an executable page, so there is no application entry page, interactive behavior, or responsive layout to test. Do not treat resizing an image in a viewer as a narrow- or wide-layout review.
+
+## Accessibility review checklist
+
+These are future checks for the archive and any context added to it; they are not verified results. The repository contains image files rather than an application interface, so keyboard operation, focus indicators, control labels, and app motion are not applicable to the files themselves.
+
+- When reviewing the screenshots in an image viewer or repository browser, check whether the viewing controls can be reached and operated by keyboard, and whether keyboard focus remains visible. These checks concern the viewer, not this archive.
+- If screenshots are later embedded in a page or given descriptive captions, provide useful text alternatives or descriptions for information conveyed by the image. Do not treat the timestamped filename alone as an image description.
+- If adding explanatory text to this README, check its contrast and readability in the rendered page. Consider whether descriptions provide context that a reader who cannot inspect the image visually would otherwise miss.
+- If this repository later gains an animated presentation, review whether motion can be reduced or paused; no animation is documented here.
