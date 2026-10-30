@@ -4,4 +4,15 @@ An image-only repository containing mobile-device screenshots, intended as a vis
 
 ## Contents
 
-The repository root contains screenshot files whose names preserve their capture timestamps. Open the images in an image viewer or browse them through GitHub. There is no application entry point, package manifest, or build configuration in the repository, so no run command is available.
+The repository root contains these screenshot files, named with their capture timestamps:
+
+- `Screenshot_2026-09-10-13-18-05-51_020b7084ee31436da249e845f8d7be91.jpg`
+- `Screenshot_2026-09-10-13-18-13-46_020b7084ee31436da249e845f8d7be91.jpg`
+- `Screenshot_2026-09-10-13-18-22-50_020b7084ee31436da249e845f8d7be91.jpg`
+- `Screenshot_2026-09-10-13-19-01-91_020b7084ee31436da249e845f8d7be91.jpg`
+- `Screenshot_2026-09-10-13-19-49-98_020b7084ee31436da249e845f8d7be91.jpg`
+- `Screenshot_2026-09-10-13-21-13-54_020b7084ee31436da249e845f8d7be91.jpg`
+- `Screenshot_2026-09-10-13-27-42-51_020b7084ee31436da249e845f8d7be91.jpg`
+- `Screenshot_2026-09-10-13-27-52-71_020b7084ee31436da249e845f8d7be91.jpg`
+
+Open the images in an image viewer or browse them through GitHub. There is no application entry point, package manifest, or build configuration in the repository, so no run command is available.
