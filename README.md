@@ -17,32 +17,24 @@ The repository root contains these screenshot files, named with their capture ti
 
 Open the images in an image viewer or browse them through GitHub. The repository has no application entry point, package manifest, or build configuration, so no run or deployment command is available.
 
-## Maintaining the image archive
+## Maintaining the archive
 
-The screenshots are stored at the repository root. Keep their timestamped filenames when possible so the inventory remains clear; if you rename or remove one, update the corresponding filename above. To add context without changing the image files, add a short description beside the relevant entry in this README. There are no supplied page, theme, or project configuration files to customize.
+Screenshots are stored at the repository root. Keep their timestamped filenames when possible, and update the inventory above if a file is renamed, added, or removed. Add descriptions beside entries when more context is useful. There are no supplied page, theme, or project configuration files to customize.
 
-## Asset review checklist
+## Review checklist
 
-These are review steps, not verified results or measured performance findings:
+This is a future review checklist, not a record of completed checks or verified browser compatibility:
 
-- Compare the README inventory with the JPG files in the repository. Check that each listed file opens and that its timestamped name matches the intended archive entry.
-- Review file sizes and image dimensions. If a screenshot is unnecessarily large for its archival purpose, consider whether a smaller copy would retain the detail the archive is meant to preserve; avoid changing originals without deciding how the archive should retain them.
-- Keep files that are part of the intended screenshot archive. Before removing an image as unused, confirm that it is not an item the archive is meant to preserve, and update the inventory if files change.
-- This repository is described as an image archive, not a web page. No external font or script dependency is documented; if a page or other loading mechanism is added later, review its external dependencies and local asset paths intentionally.
+- Compare the README inventory with the JPG files in the repository. Open each listed image and check that it is legible at a useful zoom.
+- Review the files in a current browser relevant to the intended viewing context, such as the repository browser, and in an image viewer if that is part of the archive workflow. This checks image viewing, not compatibility of an application; none is documented here.
+- If images are served through a browser, inspect developer tools for failed image requests or other loading errors. Confirm that each requested filename and path matches a file in the repository. No remote assets or web application are documented.
+- Inspect image dimensions and file sizes before deciding whether to optimize copies. Preserve originals when their detail is needed for the archive.
+- The files are screenshots, not responsive page layouts. Viewing an image at mobile or desktop screen sizes does not verify a mobile or desktop application layout. If a web presentation is added later, review its page at narrow mobile-sized and wide desktop-sized viewports in the relevant current browsers.
 
-## Manual review checklist
+## Accessibility considerations
 
-These are actions to perform, not verified results:
+These are future considerations, not verified results. Keyboard operation, focus indicators, control labels, and app motion do not apply to the image files themselves.
 
-- Open each listed JPG in an image viewer or through the repository browser. Check that it opens and that the screenshot content is legible at a useful zoom.
-- If an image is added, renamed, or removed, update the corresponding README entry.
-- This repository contains screenshots rather than an executable page, so there is no application entry page, interactive behavior, or responsive layout to test. Do not treat resizing an image in a viewer as a narrow- or wide-layout review.
-
-## Accessibility review checklist
-
-These are future checks for the archive and any context added to it; they are not verified results. The repository contains image files rather than an application interface, so keyboard operation, focus indicators, control labels, and app motion are not applicable to the files themselves.
-
-- When reviewing the screenshots in an image viewer or repository browser, check whether the viewing controls can be reached and operated by keyboard, and whether keyboard focus remains visible. These checks concern the viewer, not this archive.
-- If screenshots are later embedded in a page or given descriptive captions, provide useful text alternatives or descriptions for information conveyed by the image. Do not treat the timestamped filename alone as an image description.
-- If adding explanatory text to this README, check its contrast and readability in the rendered page. Consider whether descriptions provide context that a reader who cannot inspect the image visually would otherwise miss.
-- If this repository later gains an animated presentation, review whether motion can be reduced or paused; no animation is documented here.
+- If screenshots are embedded in a page or given captions, provide descriptions or text alternatives for information conveyed by each image; a timestamped filename is not an image description.
+- If explanatory text is added to this README, check its contrast and readability in the rendered page. Consider whether the descriptions convey context to readers who cannot inspect the images visually.
+- If this repository later gains an interactive or animated presentation, review its keyboard access, focus visibility, and motion behavior.
