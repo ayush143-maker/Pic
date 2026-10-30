@@ -1,15 +1,13 @@
 # Pic
 
-An image-only repository containing screenshot files. No application entry point or build configuration was found at the repository root.
+Pic is an image-only repository containing a set of screenshot files. It is intended as a visual reference archive rather than an executable application.
 
-## Status
+## Contents
 
-No application run command can be verified from the current root files. Review the listed files before integrating this repository into a larger project.
+The repository root contains captured images from a mobile device. The filenames preserve the original capture timestamps, which can help keep the screenshots in their original order.
 
-## Repository scope
+## Using the images
 
-The files currently present do not establish a reliable application launch command. This README records the repository state without assuming a framework or build process that is not visible.
+Open the files directly in an image viewer or browse them through GitHub. There is currently no HTML entry point, package manifest, or build configuration in the repository, so no application run command is listed.
 
-## Suggested next steps
-
-Review the current files and commit history to determine the intended role of the repository. If runnable source is added, document the runtime, dependency installation, required configuration, launch command, and a repeatable test.
+When adding more captures, keep the original files intact and use clear filenames if you introduce a separate, curated set of images.
