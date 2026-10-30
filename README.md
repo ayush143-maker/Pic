@@ -25,6 +25,12 @@ Screenshots are stored at the repository root. Keep their timestamped filenames 
 
 The JPGs are tracked repository contents and may be visible to anyone with access to the repository. Before adding or retaining a screenshot, inspect it for personal details, account information, notifications, location clues, or other content that should not be shared. Confirm you have permission to archive and distribute the image; redact sensitive details or omit the image when appropriate. A timestamped filename does not make image contents anonymous.
 
+## Contributor handoff
+
+Keep changes scoped to the screenshot or README inventory being updated. Preserve existing JPG filenames and any relative references; if a filename must change, update the inventory and all affected references. In the handoff, state which images or descriptions changed.
+
+Before publishing, manually compare the inventory with the root-level JPGs and open the changed images to review their contents and legibility. This is a review checklist, not a record of checks already completed.
+
 ## Troubleshooting
 
 These are diagnostic steps, not reports of known problems:
@@ -32,15 +38,6 @@ These are diagnostic steps, not reports of known problems:
 1. Confirm you are opening the intended JPG from the repository inventory; this repository has no application entry page.
 2. If an image does not open, check that its exact filename exists at the repository root and that the path used to open or link it matches. Keep references relative to the root when linking the files.
 3. If viewing through a browser, inspect its Console and Network panel for loading errors and check that the requested filename matches a tracked JPG.
-4. The listed contents are local JPG files; no remote resources are documented. If images are later embedded in a web presentation, inspect its references and Network requests to distinguish local files from network-dependent resources.
-
-## Review checklist
-
-This is a future review checklist, not a record of completed checks:
-
-- Compare the inventory with the JPG files in the repository. Open each listed image and check that it is legible at a useful zoom.
-- Inspect image dimensions and file sizes before deciding whether to optimize copies. Preserve originals when their detail is needed for the archive.
-- These are screenshots, not responsive page layouts. Viewing an image at different screen sizes does not verify an application layout.
 
 ## Accessibility considerations
 
