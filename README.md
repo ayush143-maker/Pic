@@ -61,3 +61,7 @@ These are future considerations, not verified results. Keyboard operation, focus
 
 - Confirm the documented starting point still matches the files present at the repository root.
 - Review the published result once on a narrow screen and once on a wider screen; treat this as a release check, not an automated test report.
+
+## Repository map
+
+- Start with the files listed at the repository root and follow the paths documented above.
