@@ -21,12 +21,21 @@ Open the images in an image viewer or browse them through GitHub. The repository
 
 The screenshots are stored at the repository root. Keep their timestamped filenames when possible so the inventory remains clear; if you rename or remove one, update the corresponding filename above. To add context without changing the image files, add a short description beside the relevant entry in this README. There are no supplied page, theme, or project configuration files to customize.
 
+## Asset review checklist
+
+These are review steps, not verified results or measured performance findings:
+
+- Compare the README inventory with the JPG files in the repository. Check that each listed file opens and that its timestamped name matches the intended archive entry.
+- Review file sizes and image dimensions. If a screenshot is unnecessarily large for its archival purpose, consider whether a smaller copy would retain the detail the archive is meant to preserve; avoid changing originals without deciding how the archive should retain them.
+- Keep files that are part of the intended screenshot archive. Before removing an image as unused, confirm that it is not an item the archive is meant to preserve, and update the inventory if files change.
+- This repository is described as an image archive, not a web page. No external font or script dependency is documented; if a page or other loading mechanism is added later, review its external dependencies and local asset paths intentionally.
+
 ## Manual review checklist
 
 These are actions to perform, not verified results:
 
 - Open each listed JPG in an image viewer or through the repository browser. Check that it opens and that the screenshot content is legible at a useful zoom.
-- Compare the files you review with the README inventory. If an image is added, renamed, or removed, update the corresponding entry.
+- If an image is added, renamed, or removed, update the corresponding README entry.
 - This repository contains screenshots rather than an executable page, so there is no application entry page, interactive behavior, or responsive layout to test. Do not treat resizing an image in a viewer as a narrow- or wide-layout review.
 
 ## Accessibility review checklist
